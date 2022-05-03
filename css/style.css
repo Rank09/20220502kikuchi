@@ -72,7 +72,7 @@ cursive;
   color: rgb(189, 189, 189);
   font-size: 24px;
   font-weight: bold;
-  margin: 20px 250px;
+  margin: 20px 290px;
 }
 
 .news_tab {
@@ -94,6 +94,7 @@ cursive;
 
 li:last-of-type {
   border-bottom: 1px solid rgb(189, 189, 189);
+  margin-bottom: 60px;
 }
 
 .news_list_tab {
@@ -120,6 +121,7 @@ li:last-of-type {
   text-align: center;
   color: rgb(158, 157, 157);
   font-size: 24px;
+  padding: 25px;
 }
 
 .about_img {
@@ -163,6 +165,8 @@ li:last-of-type {
     grid-template-rows: 200px 200px;
     grid-template-columns: 350px 450px;
     position: relative;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .service_box1 {
