@@ -2,8 +2,8 @@
   display: flex;
 }
 .header_img {
-width: 300px;
-height: 50px;
+width: 150px;
+height: 30px;
 margin-right: auto;
 }
 
@@ -13,7 +13,10 @@ margin-right: auto;
   color: rgb(190, 190, 190);
   font-size: 20px;
   margin-top: -10px;
+}
 
+a {
+  text-decoration: none;
 }
 
 .header_list_menu {
@@ -40,6 +43,7 @@ margin-right: auto;
   color: rgb(173, 45, 156);
 font-family: 'Indie Flower',
 cursive;
+line-height: 75px;
 }
 
 .main_text_item {
@@ -86,7 +90,7 @@ cursive;
   border-top: solid 1px rgb(189, 189, 189);
   color: rgb(189, 189, 189);
   padding: 10px;
-  margin: 0px 300px;
+  margin: 0px 200px;
   line-height: 20px;
 }
 
@@ -98,10 +102,10 @@ li:last-of-type {
   font-size: 10px;
   color: white;
   background: rgb(173, 45, 156);
-  border-radius: 6px;
+  border-radius: 15px;
   display: inline-block;
-  padding: 4px 5px;
-  margin: 0 20px;
+  padding: 3px 20px;
+  margin: 0 28px;
 }
 
 
@@ -124,15 +128,16 @@ li:last-of-type {
   width: 35%;
   display: block;
   position: absolute;
-  left: 800px;
+  left: 850px;
 }
 
 .about_main {
   float: left;
   text-align: left;
   color: rgb(206, 205, 205);;
-  font-size: 24px;
-  margin-left: 120px;
+  font-size: 18px;
+  margin-left: 160px;
+  line-height: 32px;
 }
 
 .about_main_des {
@@ -143,7 +148,7 @@ li:last-of-type {
 .service_ttl {
   font-size: 24px;
   font-weight: bold;
-  margin: 20px 250px;
+  margin: 20px 165px;
 }
 
 .service_ttl_tab {
@@ -155,12 +160,11 @@ li:last-of-type {
 }
 
 .service {
-  width: 100%;
-  margin: 0 300px;
-  display: grid;
-  grid-template-rows: 200px 200px;
-  grid-template-columns: 500px 500px;
-  position: relative;
+    margin-left: 165px;
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 600px 600px;
+    position: relative;
 }
 
 .service_box1 {
@@ -232,9 +236,14 @@ height: 200px px;
 display: inline-block;
 }
 
+.blog_box {
+  margin-left: 135px;
+  background: rgb(217, 216, 216);
+}
+
 .blog {
     width: 25%;
-    margin: 32px 34px;
+    margin: 32px 40px;
     border: solid 1px;
     border-radius: 10px;
     justify-content: center;
@@ -262,7 +271,7 @@ display: inline-block;
 .blog_ttl {
   display: block;
   font-size: 24px;
-  margin-left: 40px;
+  margin-left: 25px;
 }
 
 .blog_ttl_tab {
@@ -304,10 +313,10 @@ display: inline-block;
 
 .blog_btn {
   font-size: 16px;
-  padding: 24px 48px;
+  padding: 16px 60px;
   color: rgb(173, 45, 156);
   background: white;
-  border-radius: 40px ; 
+  border-radius: 40px;
   border-color: rgb(173, 45, 156);
   margin: auto;
   display: block;
@@ -337,6 +346,7 @@ td {
   border-top: solid 1px rgb(162, 160, 160);
   border-left: solid 1px rgb(162, 160, 160);
   border-right: solid 1px rgb(162, 160, 160);
+  padding: 20px;
 }
 
 
@@ -364,7 +374,6 @@ th:nth-last-child(1) {
 
 .box {
   display: flex;
-  justify-content: space-around;
 }
 
 .work {
@@ -414,10 +423,11 @@ th:nth-last-child(1) {
   font-size: 16px;
   text-align: center;
   color: rgb(189, 185, 185);
+  margin: 60px 0;
 }
 
 .detail::after {
-  color: rgb(173, 45, 156);
+  border: 1px solid rgb(173, 45, 156);
 }
 
 .detail_btn {
@@ -437,6 +447,6 @@ th:nth-last-child(1) {
     background: rgb(212, 212, 212);
     margin-top: 60px;
     display: block;
-    padding: 10px;
+    padding-top: 15px;
     font-size: 8px;
 }
