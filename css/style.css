@@ -1,27 +1,24 @@
 .header {
   display: flex;
+  justify-content: space-between;
+  padding: 30px;
 }
 .header_img {
 width: 150px;
 height: 30px;
-margin-right: auto;
+margin: auto 0;
 }
 
 .header_list {
   display: flex;
-  justify-content: space-between;
   color: rgb(190, 190, 190);
   font-size: 20px;
-  margin-top: -10px;
 }
 
 a {
   text-decoration: none;
 }
 
-.header_list_menu {
-  padding: 30px;
-}
 
 .main {
   position: relative;
@@ -90,7 +87,7 @@ cursive;
   border-top: solid 1px rgb(189, 189, 189);
   color: rgb(189, 189, 189);
   padding: 10px;
-  margin: 0px 200px;
+  margin: 0px auto;
   line-height: 20px;
 }
 
