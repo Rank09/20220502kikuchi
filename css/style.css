@@ -239,6 +239,7 @@ display: inline-block;
     border-radius: 10px;
     justify-content: center;
     display: inline-block;
+    position: relative;
 }
 
 .blog_img {
@@ -251,7 +252,7 @@ display: inline-block;
   background: red;
   color: white;
   position: absolute;
-  top: 338%;
+  top: -4%;
   height: 15px;
   width: 60px;
   text-align: center;
@@ -380,7 +381,7 @@ th:nth-last-child(1) {
 }
 
 .work_img {
-  width: 101%;
+  width: 100%;
     top: 25%;
     left: 75%;
     color: white;
@@ -401,7 +402,7 @@ th:nth-last-child(1) {
 }
 
 .interview_img {
-  width: 101%;
+  width: 100%;
   top: 25%;
   left: 75%;
   color: white;
