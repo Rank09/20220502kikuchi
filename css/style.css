@@ -128,7 +128,7 @@ li:last-of-type {
   width: 35%;
   display: block;
   position: absolute;
-  left: 850px;
+  left: 625px;
 }
 
 .about_main {
@@ -163,7 +163,7 @@ li:last-of-type {
     margin-left: 165px;
     display: grid;
     grid-template-rows: 200px 200px;
-    grid-template-columns: 600px 600px;
+    grid-template-columns: 350px 450px;
     position: relative;
 }
 
@@ -225,9 +225,9 @@ li:last-of-type {
 }
 
 .service_img_2 {
-      width: 150px;
-      height: 200px;
-      display: inline-block;
+  width: 150px;
+  height: 200px;
+  display: inline-block;
 }
 
 .service_img_3 {
@@ -242,7 +242,7 @@ display: inline-block;
 }
 
 .blog {
-    width: 25%;
+    width: 20%;
     margin: 32px 40px;
     border: solid 1px;
     border-radius: 10px;
@@ -449,4 +449,8 @@ th:nth-last-child(1) {
     display: block;
     padding-top: 15px;
     font-size: 8px;
+}
+
+* {
+  outline: 1px solid red !important;
 }
