@@ -69,10 +69,11 @@ cursive;
 }
 
 .news {
+  width: 50%;
   color: rgb(189, 189, 189);
   font-size: 24px;
   font-weight: bold;
-  margin: 20px 290px;
+  margin: 20px auto;
 }
 
 .news_tab {
