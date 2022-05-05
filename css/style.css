@@ -125,26 +125,29 @@ li:last-of-type {
   padding: 25px;
 }
 
+.about_box {
+  display: flex;
+}
+
 .about_img {
   width: 35%;
   display: block;
-  position: absolute;
-  left: 625px;
+  margin: 0 auto;
 }
 
 .about_main {
-  float: left;
-  text-align: left;
-  color: rgb(206, 205, 205);;
-  font-size: 18px;
-  margin-left: 160px;
-  line-height: 32px;
+  color: rgb(206, 205, 205);
+  font-size: 14px;
+  margin: 0 auto;
+  line-height: 25px;
+  width: 35%;
+
 }
 
 .about_main_des {
-    text-align: left;
-    color: rgb(89, 89, 89);   
-}
+  color: rgb(89, 89, 89);   
+  margin-bottom: 30px;
+  }
 
 .service_ttl {
   font-size: 24px;
@@ -236,7 +239,7 @@ li:last-of-type {
 
 .service_img_3 {
 width: 150px;
-height: 200px px;
+height: 200px;
 display: inline-block;
 }
 
@@ -297,12 +300,14 @@ display: inline-block;
   line-height: 20px;
   padding: 10px;
   font-weight: bold;
+  background: white;
 }
 
 
 .blog_under {
   text-align: right;
   font-weight: bold;
+  background: white;
 }
 
 .blog_under_date {
@@ -386,6 +391,7 @@ th:nth-last-child(1) {
 
 .work {
   position: relative;
+  width: 50%;
 }
 
 .work_tab {
@@ -408,6 +414,7 @@ th:nth-last-child(1) {
 
 .interview {
   position: relative;
+  width: 50%;
 }
 
 .interview_tab {
