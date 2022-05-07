@@ -305,13 +305,13 @@ display: inline-block;
 
 
 .blog_under {
-  text-align: right;
   font-weight: bold;
   background: white;
+  display: flex;
+  font-size: 10px;
 }
 
 .blog_under_date {
-  font-size: 12px;
   color: gray;
   display: inline-block;
   padding: 5px;
@@ -319,10 +319,9 @@ display: inline-block;
 }
 
 .blog_under_company {
-  font-size: 12px;
   display: inline-block;
   padding: 5px;
-  margin-left: 15px;
+  margin-left: auto;
 }
 
 .blog_btn {
