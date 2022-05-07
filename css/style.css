@@ -246,6 +246,7 @@ display: inline-block;
 .blog_content {
   width: 50%;
   margin: auto;
+  display: flex;
 }
 
 .blog_box {
